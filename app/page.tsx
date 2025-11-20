@@ -1,9 +1,18 @@
+import Camp from "@/components/Camp";
+import Features from "@/components/Features";
+import GetApp from "@/components/GetApp";
+import Guide from "@/components/Guide";
+import Hero from "@/components/Hero";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-  <h1 className="text-red-400">Hello world</h1>
-    </div>
+ <>
+ <Hero />
+ <Camp />
+ <Guide />
+ <Features />
+ <GetApp />
+ </>
   );
 }
