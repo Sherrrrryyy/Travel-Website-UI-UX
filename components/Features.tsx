@@ -1,11 +1,35 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 const Features = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <section className="border-2 border-red-500 flex flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
+      <div className="flex flex-1 max-container padding-container relative w-full justify-end">
+        <div className="flex flex-1 lg:min-h-[900px]">
+          <Image
+            src="/phone.png"
+            alt="phone"
+            width={440}
+            height={1000}
+            className="feature-phone"
+          />
+        </div>
 
-export default Features
+        <div className="z-20 flex w-full flex-col lg:w-[60%]">
+          <div className="relative">
+            <Image
+              src="/camp.svg"
+              alt="camp"
+              width={50}
+              height={50}
+              className="absolute left-[-5px] top-[-36px]"
+            />
+            <h2 className="bold-14 lg:bold-64">Our Features</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Features;
