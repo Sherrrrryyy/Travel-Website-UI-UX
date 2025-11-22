@@ -26,7 +26,8 @@ className='regular-16 text-black-30 cursor-pointer transition-all hover:font-bol
 type='button'
 title='Login'
 icon='/user.svg'
-variant='blue' />
+variant='blue'
+full />
 </div>
  
 
