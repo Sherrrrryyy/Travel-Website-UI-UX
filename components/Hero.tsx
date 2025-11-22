@@ -40,8 +40,8 @@ const Hero = () => {
 
 
 <div className='flex flex-col w-full gap-3 sm:flex-row'>
-<Button type='button' title='Download App' variant='btn_green' />
-<Button type='button' icon='/play.svg' title='How it work?' variant='btn_white_text' />
+<Button type='button' title='Download App' variant='btn_green' full />
+<Button type='button' icon='/play.svg' title='How it work?' full variant='btn_white_text' />
 </div>
 </div>
 
